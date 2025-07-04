@@ -445,7 +445,7 @@ async function contactBankWhatsApp(bankKey) {
 // General WhatsApp contact
 function contactWhatsApp() {
     const message = "Hola! Estoy interesado en obtener asesoría sobre compra de cartera hipotecaria. ¿Podrían ayudarme con información personalizada?";
-    const whatsappNumber = "573001234567"; // This should be configured
+    const whatsappNumber = "573123109099"; // This should be configured
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
     
