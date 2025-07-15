@@ -13,7 +13,7 @@ app.secret_key = os.environ.get("SESSION_SECRET", "your-secret-key-here")
 BANKS = {
     'banco_bogota': {
         'name': 'Banco de Bogotá',
-        'rates': {'min': 10.95, 'max': 12.68},
+        'rates': {'min': 10.95, 'max': 12.42},
         'campaign_rate': 9.95,
         'campaign_description': 'Campaña nómina hasta 30 julio',
         'icon': 'bi-building'
@@ -25,12 +25,12 @@ BANKS = {
     },
     'itau': {
         'name': 'Itau',
-        'rates': {'min': 11.71, 'max': 12.40},
+        'rates': {'min': 11.82, 'max': 17.23},
         'icon': 'bi-credit-card'
     },
     'banco_occidente': {
         'name': 'Banco de Occidente',
-        'rates': {'min': 10.85, 'max': 16.16},
+        'rates': {'min': 10.25, 'max': 15.56},
         'icon': 'bi-piggy-bank'
     },
     'caja_social': {
